@@ -128,23 +128,36 @@ body{
 }
 
 @media only screen and (max-width: 600px) {
-    *{
-        background-color: blue;
-    }
     .book{
         width: 90%; 
         margin: 10px auto; 
     }
-    /* .add-button{
-        font-size: 25px; 
-        bottom: 10px;
-        right: 10px; 
-    } */
-
+    
     .popup-box{
-        width: 90%; 
+        width: 70%; 
         padding: 15px; 
-        left: 20%;
+        left: 14%;
+        top:20%
+        
+    }
+    .popup-box input{
+        border: none;
+        width: 90%;
+        margin: 5px;
+        padding: 5px;
+        font-size: 15px;
+        border-bottom: solid black 2px;
+        outline: none;
+    }
+    .popup-box textarea{
+        border: 1px solid black;
+        width: 90%;
+        margin: 5px;
+        margin-top: 12px;
+        padding: 5px;
+        padding-bottom: 0px;
+        font-size: 15px;
+        outline: none;
     }
 }
 
